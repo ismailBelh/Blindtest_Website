@@ -52,7 +52,25 @@ Le site de jeux Blindtest est un jeu en ligne interactif qui se joue en local. I
 
 - Les scores peuvent être réinitialisés pour démarrer une nouvelle partie avec une autre playliste.
 
-  
+## 5. Installation sur un nouveau serveur ou une nouvelle base de données :
+
+Si vous souhaitez installer le site de jeux Blind Test sur un nouveau serveur ou une nouvelle base de données, voici les éléments à prendre en compte :
+
+Configuration du serveur : Assurez-vous que le nouveau serveur est compatible avec les technologies utilisées par le site, notamment PHP, JavaScript, HTML et CSS. Vérifiez les prérequis et les versions requises pour ces technologies.
+
+Transfert des fichiers : Copiez tous les fichiers du site, y compris les fichiers PHP, JavaScript, HTML et CSS, sur le nouveau serveur. Veillez à conserver la structure des dossiers et des fichiers.
+
+Base de données : Créez une nouvelle base de données sur le nouveau serveur et importez les tables et les données de l'ancienne base de données. Vous pouvez utiliser des outils tels que PHPMyAdmin pour faciliter ce processus.
+
+Configuration de la connexion à la base de données : Modifiez les informations de connexion à la base de données dans le code du site pour refléter les nouvelles informations de la base de données (nom de l'hôte, nom de la base de données, nom d'utilisateur et mot de passe).
+
+Vérification des dépendances : Assurez-vous que toutes les dépendances nécessaires au bon fonctionnement du site (par exemple, Bootstrap) sont présentes sur le nouveau serveur. Le cas échéant, téléchargez et configurez ces dépendances.
+
+Tests et débogage : Une fois l'installation terminée, effectuez des tests exhaustifs pour vous assurer que le site fonctionne correctement sur le nouveau serveur. Vérifiez que toutes les fonctionnalités, y compris la création de playlistes, la gestion des musiques et le déroulement des parties, sont opérationnelles.
+
+Références externes : Si le site utilise des services externes, tels que l'API YouTube, assurez-vous de mettre à jour les clés d'API ou les configurations nécessaires pour que ces services fonctionnent correctement sur le nouveau serveur.
+
+En suivant ces étapes et en effectuant les ajustements nécessaires, vous devriez pouvoir installer le site de jeux Blind Test sur un nouveau serveur ou une nouvelle base de données sans problème.
 
 ## Conclusion :
 
