@@ -62,6 +62,8 @@ Transfert des fichiers : Copiez tous les fichiers du site, y compris les fichier
 
 Base de données : Créez une nouvelle base de données sur le nouveau serveur et importez les tables et les données de cnamblindtest_sql.sql. Vous pouvez utiliser des outils tels que PHPMyAdmin pour faciliter ce processus.
 
+Accès au CRUD : Seul les administrateurs ont accès au CRUD. Le premier administrateur doit être mis admin à la création de la base de donné. Par défaut tous les nouveaux utilisateurs ne sont pas administrateur, mais les droits peuvent leur être donner à partir du CRUD. Pour accéder au CRUD voici le lien à suivre: votreSite.com/Views/crud.html
+
 Configuration de la connexion à la base de données : Modifiez les informations de connexion à la base de données dans le code du site pour refléter les nouvelles informations de la base de données (nom de l'hôte, nom de la base de données, nom d'utilisateur et mot de passe).
 
 Vérification des dépendances : Assurez-vous que toutes les dépendances nécessaires au bon fonctionnement du site (par exemple, Bootstrap) sont présentes sur le nouveau serveur. Le cas échéant, téléchargez et configurez ces dépendances.
