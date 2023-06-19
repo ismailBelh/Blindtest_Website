@@ -60,7 +60,7 @@ Configuration du serveur : Assurez-vous que le nouveau serveur est compatible av
 
 Transfert des fichiers : Copiez tous les fichiers du site, y compris les fichiers PHP, JavaScript, HTML et CSS, sur le nouveau serveur. Veillez à conserver la structure des dossiers et des fichiers.
 
-Base de données : Créez une nouvelle base de données sur le nouveau serveur et importez les tables et les données de l'ancienne base de données. Vous pouvez utiliser des outils tels que PHPMyAdmin pour faciliter ce processus.
+Base de données : Créez une nouvelle base de données sur le nouveau serveur et importez les tables et les données de cnamblindtest_sql.sql. Vous pouvez utiliser des outils tels que PHPMyAdmin pour faciliter ce processus.
 
 Configuration de la connexion à la base de données : Modifiez les informations de connexion à la base de données dans le code du site pour refléter les nouvelles informations de la base de données (nom de l'hôte, nom de la base de données, nom d'utilisateur et mot de passe).
 
