@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+</head>
+
+<body>
+    <div data-bss-parallax-bg="true" style="height: 100vh;background: linear-gradient(to bottom right,#ffffff, #ff00ff);background-position: center;background-size: cover;background-repeat: space;">
+        <div class="row">
+            <div class="col-4 col-sm-3 col-md-2" style="margin-right: auto;margin-left: auto;padding: 1%;"><button class="btn btn-primary" data-bss-hover-animate="rubberBand" id="Disconnect" type="button" style="margin-right: auto;margin-left: auto;display: block;">Deconexion</button></div>
+            <div class="col-4 col-md-2 col-lg-2" style="padding: 1%;margin-right: auto;margin-left: auto;"><button class="btn btn-primary" data-bss-hover-animate="rubberBand" id="return" type="button" style="margin-right: auto;margin-left: auto;display: block;">Retour</button></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1 id="Titre-1" style="margin-top: 5%;margin-left: auto;margin-right: auto;text-align: center;">Titre de la playlist</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" style="margin-right: auto;margin-left: auto;margin-top: 5%;">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col" style="text-align: center;"><strong>Titre</strong></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><input type="text" id="Titre" style="display: block;margin: auto;">
+                                <div class="row">
+                                    <div class="col" style="text-align: center;"><strong>Artiste</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><input type="text" id="Artiste" style="display: block;margin: auto;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="text-align: center;"><strong>Source</strong></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><input type="text" id="Source" style="display: block;margin: auto;">
+                                <div class="row">
+                                    <div class="col" style="text-align: center;"><strong>URL</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col"><input type="text" id="Lien" style="display: block;margin: auto;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col"><button class="btn btn-primary pulse animated infinite" id="AjouterModifier" type="button" style="margin-right: auto;margin-left: auto;display: block;">Ajouter/Modifier</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-md-6 col-lg-8" id="songField" style="margin-right: auto;margin-left: auto;margin-top: 5%;"></div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-lg-3 offset-lg-0" style="margin-top: 5%;margin-right: auto;margin-left: auto;"><button class="btn btn-primary pulse animated infinite" id="Valide" type="button" style="margin-right: auto;margin-left: auto;display: block;">Validé</button></div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script>
+        document.getElementById("Return").addEventListener("click", function() {
+            window.location.href = "creation_modification_playlists.php";
+        });
+        document.getElementById("Disconnect").addEventListener("click", function() {
+            window.location.href = "connexion.html";
+        });
+    </script>
+    <script src="/Controllers/edition_playlistsController.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" style="background: radial-gradient(var(--bs-white) 0%, #ff00ff 100%);">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body style="background: rgba(255,255,255,0);">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000" style="display: block;margin-left: auto;margin-right: auto;">
+        <h1 style="margin-left: auto;margin-right: auto;text-align: center;font-weight: bold;font-size: 53.472px;">BlindTest</h1>
+        <p style="margin-left: auto;margin-right: auto;text-align: center;font-weight: bold;font-size: 25px;">Veuillez vous authentifié&nbsp;</p>
+    </div>
+    <form data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container" style="background-color: rgba(55,55,55,0.69);color: white;border-radius: 53px;transform: scale(1) skew(0deg);border-width: 68px;--bs-body-font-weight: bold;width: 324px;height: 300px;padding: 13px;">
+            <label class="form-label" style="margin-left: auto;margin-right: auto;display: block;text-align: center;font-weight: bold;">Nom d'utilisateur :</label>
+            <input class="form-control" type="text" id="pseudo" style="width: 12em;margin-left: auto;margin-right: auto;margin-bottom: 1rem;">
+            <label class="form-label" style="margin-left: auto;margin-right: auto;display: block;text-align: center;font-weight: bold;">Mot de passe :</label>
+            <input class="form-control" type="password" id="password" style="width: 12em;margin-left: auto;margin-right: auto;margin-bottom: 1rem;">
+            <input id="connect" class="btn btn-primary" type="button" value="Se Connecter" data-bss-hover-animate="rubberBand" style="margin-right: auto;margin-left: auto;display: block;">
+            <a href="/Views/mot_de_passe_oublier.html" style="display: block;margin: auto;width: 161px;text-align: center;margin-top: 20px;">Mot de passe oublier ?</a>
+        </div>
+    </form>
+    <script src="/Views/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Views/assets/js/aos.min.js"></script>
+    <script src="/Views/assets/js/bs-init.js"></script>
+    <script src="/Controllers/loginController.js"></script>
+</body>
+
+</html>
